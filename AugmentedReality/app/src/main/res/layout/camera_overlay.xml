@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_overlay_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:id="@+id/my_text"
+        android:textSize="60sp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ff2ac2a0" />
+    <Button
+        android:visibility="gone"
+        android:id="@+id/menu_button"
+        android:text="Menu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#ff121212"
+        android:textSize="20sp"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        />
+    <LinearLayout
+        android:layout_below="@+id/my_text"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/menu"
+        android:layout_alignParentBottom="true"
+        android:background="@color/my_color"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Menu"
+            android:textColor="@color/asfar"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/menu_list"
+            android:layout_height="wrap_content"></ListView>
+
+
+    </LinearLayout>
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar"
+            android:id="@+id/loading_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+        
+</RelativeLayout>

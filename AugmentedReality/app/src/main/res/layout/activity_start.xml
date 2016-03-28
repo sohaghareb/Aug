@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.augmentedreality.Start"
+    android:background="#ff2ac2a0"
+    >
+
+    <TextView android:text="If you are an  owner please log in" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="#ff0b0512"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:ems="10"
+        android:id="@+id/name"
+        android:textSize="18sp"
+        android:autoText="false"
+        android:background="#ffc8c8c8"
+        android:minHeight="45dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignEnd="@+id/password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10"
+        android:minHeight="45dp"
+        android:id="@+id/password"
+        android:background="#ffc8c8c8"
+        android:layout_below="@+id/name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+        android:id="@+id/start"
+        android:text="Start"
+        android:textColor="#ff121212"
+        android:textSize="20sp"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/log_in"
+        android:layout_toRightOf="@+id/textView2"
+
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/log_in"
+        android:background="@drawable/buttonshape2"
+        android:textColor="#ff121212"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Not an Owner ?"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="88dp"
+        android:layout_below="@+id/log_in"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff0e0912"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

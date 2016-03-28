@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig >
+  <Tracking>
+    <ImageTarget name="friends_4" size="70.000000 124.555161" />
+    <ImageTarget name="friends_3" size="55.000000 97.864769" />
+    <ImageTarget name="friends_2" size="55.000000 97.864769" />
+    <ImageTarget name="friends_1" size="50.000000 88.967972" />
+    <ImageTarget name="voda_2" size="88.000000 156.583633" />
+    <ImageTarget name="voda_1" size="70.000000 124.389999" />
+    <ImageTarget name="piking_3" size="100.000000 75.000000" />
+    <ImageTarget name="piking_2" size="25.000000 18.750000" />
+    <ImageTarget name="piking_1" size="20.000000 20.000000" />
+    <ImageTarget name="bread2_2" size="45.000000 79.964996" />
+    <ImageTarget name="bread2_1" size="65.000000 36.529999" />
+    <ImageTarget name="bread1_3" size="89.000000 50.018002" />
+    <ImageTarget name="bread1_2" size="45.000000 80.071175" />
+    <ImageTarget name="bread1_1" size="55.000000 97.735001" />
+    <ImageTarget name="laroma2_3" size="44.000000 78.291817" />
+    <ImageTarget name="laroma2_2" size="40.000000 71.174377" />
+    <ImageTarget name="mob_back_x" size="15.000000 20.000000" />
+    <ImageTarget name="20160229_083520" size="99.000000 175.923004" />
+    <ImageTarget name="mob_back_2" size="33.000000 24.750000" />
+    <ImageTarget name="mob_2" size="27.000000 27.000000" />
+    <ImageTarget name="IMG_0491" size="12.000000 15.996000" />
+    <ImageTarget name="am2" size="33.000000 58.718861" />
+    <ImageTarget name="am_1tryal_5" size="33.000000 58.718861" />
+    <ImageTarget name="am_1tryal_3" size="66.000000 37.091999" />
+    <ImageTarget name="am_1tryal_2" size="60.000000 33.720001" />
+    <ImageTarget name="pikingfront" size="110.000000 61.820000" />
+    <ImageTarget name="am3" size="44.000000 78.291817" />
+    <ImageTarget name="am1" size="55.000000 97.864769" />
+  </Tracking>
+</QCARConfig>
